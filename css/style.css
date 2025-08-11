@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Libertinus+Mono&family=Pacifico&display=swap');
+@font-face {
+    font-family:"libertinus mono";
+    src: url(../assets/fonts/LibertinusMono-Regular.ttf);
+    font-family:"pacific regular";
+    src: url(../assets/fonts/Pacifico-Regular.ttf);
+    font-family:"bitcount";
+    src: url(../assets/fonts/BitcountGridDouble-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
+}
+body{
+    font-family: "pacific regular", sans-serif;
+    margin:auto;
+}
+li>a{
+    text-decoration: none;
+    font-family: "libertinus mono";
+    color: black;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    border-radius: 70px;
+    height: 80px;
+    width: 95px;
+    border-style:double;
+}
+.tituloprincipal{
+    font-family: "libertinus mono";
+    color: rgb(149, 85, 233);
+    font-style:italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    display: flex;
+    width: 300px;
+    border: 2px solid rgb(111, 35, 211);
+    border-radius: 10px;
+    border-style:dotted;
+    padding: 10px;
+}
+.titulo_contacto{
+  font-family: "libertinus mono";
+    color: rgb(149, 85, 233);
+    font-style:italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    border: 2px solid rgb(111, 35, 211);
+    border-radius: 10px;
+    border-style:dotted;
+    padding: 10px;
+}
+
+.subtituloprincipal{
+  font-family: "libertinus mono";
+    color: rgb(33, 2, 73);
+    font-style:italic;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+}
+.foto{
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  width: 300px;
+}
+.mainprincipal{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.contenidocentral{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.cajabotones{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #f7f9fb;
+  background-image: url(../assets/img/utils/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #ccc;
+}
+.menu {
+  display: flex;
+  gap: 100px; /* espacio entre los ítems */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.botonmenu{
+    font-family: "pacific regular", sans-serif;
+    color: rgba(71, 37, 31, 0.89);
+    font-style:italic;
+    font-weight:bold;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+button{
+    background-color: rgb(226, 168, 168);
+    padding: 5px;
+    border-radius: 15px;
+}
+.login{
+    color: rgba(46, 24, 20, 0.89);
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 10px;
+    text-align: center;
+}
+.redes{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #e9b7d2;
+  justify-content: center;
+}
+.menuredes{
+  display: flex;
+  gap: 100px; /* espacio entre los ítems */
+  list-style: none;
+  margin: 0;
+}
+.enlacered{
+    color: rgba(0, 0, 0, 0.89);
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgba(243, 170, 225, 0.89);
+    border-radius: 10px;
+    background-color: rgb(229, 179, 248);
+    transition: all 0.3s ease;
+    font-family: "libertinus mono";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.enlacered:hover {
+  background-color: hotpink;
+  color: white;
+}
+.botonmenu:hover {
+  color: white;
+  background-color: rgba(71, 37, 31, 0.89);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+main{
+    background-image: url(../assets/img/utils/fondopelu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.submenu{
+    color: rgba(46, 24, 20, 0.89);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+}
+.submenu-titulo h2 {
+  font-size: 28px;
+  color: #d63384;
+  margin: 0;
+}
+.fotojazrecibida {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.cajainputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input{
+  width: 100%;
+  box-sizing: content-box;
+  font-family:"libertinus mono";
+  background-color: #e3c5f1;
+  font-weight: bolder;
+}
+input[type="submit"] {
+  background-color: #b66bdb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-style: double;
+}
+input[type="submit"]:hover {
+  background-color: #964bb9;
+}
+form{
+  background-color:#eddff3;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  margin: 50px auto;
+  margin-top: 10px;
+  
+}
+textarea{
+  min-width: 100%;
+  resize: vertical;
+  min-height: 100px;
+  max-height: 200px;
+  font-family:"libertinus mono";
+  background-color: #e8b5ff;
+  padding: 10px;
+  font-weight: bolder;
+}
+.bodyform{
+  background-image: url(../assets/img/utils/fondopelu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cajatitulo{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
