@@ -20,6 +20,58 @@ li>a{
 ul{
     list-style: none;
 }
+main{
+    background-image: url(../assets/img/utils/fondopelu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    background-color: rgb(226, 168, 168);
+    padding: 5px;
+    border-radius: 15px;
+}
+input{
+  width: 100%;
+  box-sizing: content-box;
+  font-family:"libertinus mono";
+  background-color: #e3c5f1;
+  font-weight: bolder;
+}
+input[type="submit"] {
+  background-color: #b66bdb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-style: double;
+}
+input[type="submit"]:hover {
+  background-color: #964bb9;
+}
+form{
+  background-color:#eddff3;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  margin: 50px auto;
+  margin-top: 10px;
+  
+}
+textarea{
+  min-width: 100%;
+  resize: vertical;
+  min-height: 100px;
+  max-height: 200px;
+  font-family:"libertinus mono";
+  background-color: #e8b5ff;
+  padding: 10px;
+  font-weight: bolder;
+}
 .logo{
     border-radius: 70px;
     height: 80px;
@@ -33,11 +85,11 @@ ul{
     font-variant: small-caps;
     font-weight: bold;
     display: flex;
-    width: 300px;
+    justify-content: center;
     border: 2px solid rgb(111, 35, 211);
     border-radius: 10px;
     border-style:dotted;
-    padding: 10px;
+    padding: 20px;
 }
 .titulo_contacto{
   font-family: "libertinus mono";
@@ -65,7 +117,6 @@ ul{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  flex: 1;
 }
 .foto{
   max-width: 100%;
@@ -84,12 +135,40 @@ ul{
 .contenidocentral{
   display: flex;
   justify-content: center;
-  gap: 100px;
+  flex-direction: column;
+}
+.contenido_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;        
+  margin: 0 auto;          
+  padding: 5px;           
+  box-sizing: border-box; 
+}
+.section_descriptiva {
+  display: flex;
+  flex-direction: row;
+  align-items: center;     
+  justify-content: flex-start;
+  width: 100%;             
+  margin-bottom: 2rem;     
+}
+.section_descriptiva img {
+  max-width: 300px;        
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;          
+}
+.texto_descriptivo {                 
+  text-align: left;
+  margin: 0;
 }
 .cajabotones{
   display: flex;
   justify-content: center;
-  gap: 15px;
   margin-top: 20px;
 }
 .encabezado {
@@ -117,11 +196,6 @@ ul{
     font-weight:bold;
     font-size: 15px;
     transition: all 0.3s ease;
-}
-button{
-    background-color: rgb(226, 168, 168);
-    padding: 5px;
-    border-radius: 15px;
 }
 .login{
     color: rgba(46, 24, 20, 0.89);
@@ -172,11 +246,6 @@ button{
   padding: 8px 12px;
   border-radius: 8px;
 }
-main{
-    background-image: url(../assets/img/utils/fondopelu.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .submenu{
     color: rgba(46, 24, 20, 0.89);
     text-decoration: none;
@@ -200,48 +269,6 @@ main{
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
-input{
-  width: 100%;
-  box-sizing: content-box;
-  font-family:"libertinus mono";
-  background-color: #e3c5f1;
-  font-weight: bolder;
-}
-input[type="submit"] {
-  background-color: #b66bdb;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  border-style: double;
-}
-input[type="submit"]:hover {
-  background-color: #964bb9;
-}
-form{
-  background-color:#eddff3;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 90%;
-  max-width: 400px;
-  margin: 50px auto;
-  margin-top: 10px;
-  
-}
-textarea{
-  min-width: 100%;
-  resize: vertical;
-  min-height: 100px;
-  max-height: 200px;
-  font-family:"libertinus mono";
-  background-color: #e8b5ff;
-  padding: 10px;
-  font-weight: bolder;
 }
 .bodyform{
   background-image: url(../assets/img/utils/fondopelu.png);
