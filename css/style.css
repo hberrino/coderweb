@@ -93,7 +93,7 @@ ul{
   margin-top: 20px;
 }
 .encabezado {
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   padding: 10px 40px;
@@ -125,10 +125,13 @@ button{
 }
 .login{
     color: rgba(46, 24, 20, 0.89);
+    background-color: rgb(226, 168, 168);
     text-decoration: none;
     text-transform: lowercase;
     padding: 10px;
     text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
 }
 .redes{
   margin-top: 10px;
